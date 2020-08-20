@@ -1,5 +1,5 @@
 def dockerPushImage()
 {
-  println("Hello")
+  println("Pushing the Docker Image to DockerHub")
 
 }
