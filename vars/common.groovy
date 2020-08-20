@@ -7,6 +7,8 @@ withCredentials([
               passwordVariable: 'password')
           ])
 
-          sh "docker login -u username -p password;docker push  sunishsurendrank/webserver:v$BUILD_NUMBER"
+          sh """
+          docker login -u username -p password;docker push  sunishsurendrank/webserver:v$BUILD_NUMBER
+          """
 
 }
