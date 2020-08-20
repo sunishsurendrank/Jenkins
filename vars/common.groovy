@@ -8,7 +8,7 @@ withCredentials([
           ])
 
           sh """
-          docker login -u {$usernameVariable} -p {$passwordVariable}
+          docker login -u ${usernameVariable} -p ${passwordVariable}
           docker push  sunishsurendrank/webserver:v$BUILD_NUMBER
           """
 
