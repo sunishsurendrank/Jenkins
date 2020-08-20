@@ -1,4 +1,4 @@
-def dockerPushImage
+def dockerPushImage()
 {
  
  steps {
