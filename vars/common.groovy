@@ -1,5 +1,5 @@
-def dockerPushImage (name)
+def dockerPushImage()
 {
-  println("Hello ${name}")
+  println("Hello")
 
 }
